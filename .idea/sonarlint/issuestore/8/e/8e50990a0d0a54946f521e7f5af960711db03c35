@@ -1,0 +1,5 @@
+
+†"squid:ClassVariableVisibilityCheck"SMake context a static final constant or non-public and provide accessors if needed.(Òò®­8‚ÁÔ¯‘-
+[squid:S1118":Add a private constructor to hide the implicit public one.(î—÷ßşÿÿÿÿ8‚ÁÔ¯‘-
+Isquid:S1444"-Make this "public static context" field final(Òò®­8‚ÁÔ¯‘-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º×şşÿÿÿÿ8‚ÁÔ¯‘-

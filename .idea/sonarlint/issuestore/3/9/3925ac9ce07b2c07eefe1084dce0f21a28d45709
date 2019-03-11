@@ -1,0 +1,13 @@
+
+]squid:UnusedPrivateMethod"3Remove this unused private "resetInsertPos" method.(ÃÛÕ‚8›¹Å•-
+T"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(Åµò8›¹Å•-
+fsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(Åµò8›¹Å•-
+"squid:ClassVariableVisibilityCheck"XMake breakfastPos a static final constant or non-public and provide accessors if needed.(Á®¢£şÿÿÿÿ8›¹Å•-
+Œ"squid:ClassVariableVisibilityCheck"TMake lunchPos a static final constant or non-public and provide accessors if needed.(˜†Øãüÿÿÿÿ8›¹Å•-
+"squid:ClassVariableVisibilityCheck"UMake dinnerPos a static final constant or non-public and provide accessors if needed.(×ı×™üÿÿÿÿ8›¹Å•-
+‰"squid:ClassVariableVisibilityCheck"VMake footerView a static final constant or non-public and provide accessors if needed.(Îè€…8›¹Å•-
+Xsquid:S2589"7Remove this expression which always evaluates to "true"(Ó«»Şıÿÿÿÿ8›¹Å•-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(„’¤œúÿÿÿÿ8›¹Å•-
+msquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(¥öä8›¹Å•-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ş…ê§øÿÿÿÿ8›¹Å•-
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ó«»Şıÿÿÿÿ8›¹Å•-

@@ -1,0 +1,6 @@
+
+}squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(Ðê«¹8ƒÝÇª’-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º×þŽþÿÿÿÿ8ƒÝÇª’-
+‚squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(Ú€¼¶øÿÿÿÿ8ƒÝÇª’-
+}squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(éÆœÁ8ŒÊ´ç”-
+‚squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(²¬ë„øÿÿÿÿ8ŒÊ´ç”-

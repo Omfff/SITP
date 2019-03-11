@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FoodLibrary</string>
+    <string name="search">最近搜索</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">请输入食物名称</string>
+    <string name="food_analysis">饮食分析</string>
+    <string name="food_compare">搜索对比</string>
+    <string name="picture_search">图像识别</string>
+
+    <string name="food_classification">食物分类</string>
+    <string name="staple_food">主食类</string>
+    <string name="meat">肉蛋类</string>
+    <string name="vegetable">蔬菜类</string>
+    <string name="fruit">水果类</string>
+    <string name="milk">奶制品</string>
+    <string name="other_kinds">其他类</string>
+
+    <string name="food_name">食物名称</string>
+    <string name="food_calories">食物热量</string>
+    <string name="food_weight">/100克</string>
+
+    <string name="food_nutrient">营养元素</string>
+    <string name="food_per_weight">每100克</string>
+    <string name="food_remark">备注</string>
+    <string name="calories">热量</string>
+    <string name="protein">蛋白质</string>
+    <string name="fat">脂肪</string>
+    <string name="carbohydrate">碳水化合物</string>
+</resources>

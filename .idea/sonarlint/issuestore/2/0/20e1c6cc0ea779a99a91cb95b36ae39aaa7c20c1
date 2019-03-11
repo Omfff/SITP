@@ -1,0 +1,15 @@
+
+isquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(æ–óÎ8Ëé«˜–-
+nsquid:S1301D"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8Ëé«˜–-
+Ysquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8Ëé«˜–-
+Fsquid:S1148K"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ëé«˜–-
+]
+squid:S8992";Do something with the "boolean" value returned by "delete".(ã­È„øÿÿÿÿ8Ëé«˜–-
+Zsquid:UnusedPrivateMethod.".Remove this unused private "takePhoto" method.(¦ä©8Ëé«˜–-
+lsquid:S40422"IUse "java.nio.Files#delete" here for better messages on error conditions.(ã­È„øÿÿÿÿ8Ëé«˜–-
+¤squid:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æí‡ýÿÿÿÿ8Ëé«˜–-
+dsquid:UselessImportCheck"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ8Ëé«˜–-
+Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ëé«˜–-
+Ÿsquid:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(äÄí†8Ëé«˜–-
+_
+squid:S8994"BDo something with the "boolean" value returned by "createNewFile".(¢Õ³…8Ëé«˜–-

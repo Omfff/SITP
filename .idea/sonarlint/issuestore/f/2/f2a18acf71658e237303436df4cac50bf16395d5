@@ -1,0 +1,21 @@
+
+Tsquid:S1172"3Remove this unused method parameter "dietInfoList".(Ææ©‡ùÿÿÿÿ8Ø¢á¼”-
+Usquid:S3400"9Remove this method and declare a constant for this value.(¸ŽÁ8Ø¢á¼”-
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(ûðý²üÿÿÿÿ8Ø¢á¼”-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Þ…ê§øÿÿÿÿ8Ø¢á¼”-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«¹áù8Ø¢á¼”-
+{squid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "newDate".(ŸÂù°8Ø¢á¼”-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Ø¢á¼”-
+Zsquid:UnusedPrivateMethod"0Remove this unused private "getDateList" method.(‹§—Ê8Ø¢á¼”-
+Usquid:S1854"9Remove this useless assignment to local variable "query".(¡ÀøÐ8Ø¢á¼”-
+^squid:UselessImportCheck"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8Ø¢á¼”-
+jsquid:S2259"IA "NullPointerException" could be thrown; "getRecords()" can return null.(ûðý²üÿÿÿÿ8Ø¢á¼”-
+Hsquid:S3010"'Remove this assignment of "foodMethod".(þðÒøÿÿÿÿ8Ø¢á¼”-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Ø¢á¼”-
+Vsquid:UselessImportCheck"-Remove this unused import 'java.time.ZoneId'.( Æ½“8Ø¢á¼”-
+Usquid:S3010"4Remove this assignment of "foodRecordBaseDaoMethod".(ðÅæ©üÿÿÿÿ8Ø¢á¼”-
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ö§ˆ·8Ø¢á¼”-
+Fsquid:S1481"*Remove this unused "query" local variable.(¡ÀøÐ8Ø¢á¼”-
+Psquid:S3010"4Remove this assignment of "dietRecordBaseDaoMethod".(öþÛ†8Ø¢á¼”-
+asquid:UselessImportCheck"8Remove this unused import 'com.example.a.fd.model.Food'.(©ˆþÐ8Ø¢á¼”-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ø¢á¼”-

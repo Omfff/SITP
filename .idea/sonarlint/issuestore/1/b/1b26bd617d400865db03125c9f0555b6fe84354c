@@ -1,0 +1,5 @@
+
+rsquid:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(þ®º—8´É»î•-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ±Üù8´É»î•-
+dsquid:HiddenFieldCheck"8Rename "name" which hides the field declared at line 25.(¹áûòýÿÿÿÿ8´É»î•-
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(à…ªé8´É»î•-

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompareSearch">
+
+    <EditText
+        android:id="@+id/key_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/query_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="query_all"/>
+    <Button
+        android:id="@+id/delete_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete_all"/>
+    <Button
+        android:id="@+id/delete_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete_one"/>
+    <Button
+        android:id="@+id/insert_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert_one"/>
+    <Button
+        android:id="@+id/update_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update_one"/>
+    <Button
+        android:id="@+id/query_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="query_one"/>
+
+</LinearLayout>

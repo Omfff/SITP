@@ -1,0 +1,5 @@
+
+Qsquid:S1068"0Remove this unused "recyclerView" private field.(¿á© ıÿÿÿÿ8¸ÚÒé‘-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÂŸ¿Àûÿÿÿÿ8¸ÚÒé‘-
+|squid:S1450"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ıÿÿÿÿ8¸ÚÒé‘-
+Psquid:S1068"/Remove this unused "compareView" private field.(¶ğ˜Ïÿÿÿÿÿ8¸ÚÒé‘-

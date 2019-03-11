@@ -1,0 +1,16 @@
+
+Isquid:S1604"(Make this anonymous inner class a lambda(ÔìÇşüÿÿÿÿ8›ñï”-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡­¾ı8›ñï”-
+Isquid:S1604"(Make this anonymous inner class a lambda(˜ÿÿÿÿÿ8›ñï”-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¤–Ä8›ñï”-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã’ºáøÿÿÿÿ8›ñï”-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒŞ¬†ÿÿÿÿÿ8›ñï”-
+ƒsquid:S4165"bRemove this useless assignment; "flag" already holds the assigned value along all execution paths.(ÚÄ¦òøÿÿÿÿ8›ñï”-
+Dsquid:S1125"(Remove the literal "true" boolean value.(İ‰î8›ñï”-
+Dsquid:S1604"(Make this anonymous inner class a lambda(ŸÑÂ°8›ñï”-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éùëŸúÿÿÿÿ8›ñï”-
+Dsquid:S1125"(Remove the literal "true" boolean value.(›¬ò¥8›ñï”-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8›ñï”-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŞêË•8›ñï”-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğóõ§8›ñï”-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º×şşÿÿÿÿ8›ñï”-

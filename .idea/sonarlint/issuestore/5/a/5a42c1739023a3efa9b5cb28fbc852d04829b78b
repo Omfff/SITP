@@ -1,0 +1,4 @@
+
+jsquid:UselessImportCheck"ARemove this unused import 'com.example.a.fd.model.SearchKeyword'.(þÛ‘Ú8»ñÁ³”-
+ksquid:S00116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¯ñ÷8Žß×ž”-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º×þŽþÿÿÿÿ8Žß×ž”-

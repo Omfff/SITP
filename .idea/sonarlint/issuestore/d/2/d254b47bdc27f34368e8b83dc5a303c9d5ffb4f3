@@ -1,0 +1,10 @@
+
+qsquid:UselessImportCheck"IRemove this unused import 'com.example.a.fd.searchHistory.db.DaoManager'.(·²š8½ú«õ‘-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ¸éÍ8½ú«õ‘-
+8squid:S1643"Use a StringBuilder instead.(äÅÖŽ8½ú«õ‘-
+Tsquid:S1854"8Remove this useless assignment to local variable "temp".(ç¡èÙ8½ú«õ‘-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Š¿Úˆúÿÿÿÿ8½ú«õ‘-
+[squid:UselessImportCheck"2Remove this unused import 'butterknife.BindViews'.(Õ§›€8½ú«õ‘-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦Êˆµ8½ú«õ‘-
+msquid:UselessImportCheck"?Remove this unused import 'java.util.concurrent.ConcurrentMap'.(˜ˆŽ¶úÿÿÿÿ8½ú«õ‘-
+usquid:UselessImportCheck"GRemove this unused import 'com.example.a.fd.searchHistory.db.DaoUtils'.(ùàÎ³þÿÿÿÿ8©Æ ç”-

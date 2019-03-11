@@ -1,0 +1,8 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(×ÿÿúÿÿÿÿ8Â¦áç”-
+rsquid:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(þ®º—8Â¦áç”-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶æ‡¼8Â¦áç”-
+Ksquid:S1905"*Remove this unnecessary cast to "Toolbar".(«ó·øÿÿÿÿ8Â¦áç”-
+lsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÛŠ¬˜ùÿÿÿÿ8Â¦áç”-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÂŸ¿Àûÿÿÿÿ8Â¦áç”-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦×Àæ8Â¦áç”-

@@ -1,0 +1,6 @@
+
+”"squid:ClassVariableVisibilityCheck"\Make pinnedHeaderName a static final constant or non-public and provide accessors if needed.(íØŠ«şÿÿÿÿ8¸€™“-
+„"squid:ClassVariableVisibilityCheck"QMake check a static final constant or non-public and provide accessors if needed.(£àÛ¶8¸€™“-
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ş…ê§øÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"RMake amount a static final constant or non-public and provide accessors if needed.(¶â¤·ıÿÿÿÿ8³—î›”-
+ƒ"squid:ClassVariableVisibilityCheck"PMake food a static final constant or non-public and provide accessors if needed.(˜ïÕè8¸€™“-

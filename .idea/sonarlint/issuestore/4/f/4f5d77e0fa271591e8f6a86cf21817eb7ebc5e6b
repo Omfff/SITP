@@ -1,0 +1,10 @@
+
+[squid:S1118":Add a private constructor to hide the implicit public one.(õ‡ƒ­ÿÿÿÿÿ8Ñì¹³”-
+`squid:S2147"DCombine this catch with the one at line 81, which has the same body.(Å¡ß8Ñì¹³”-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñì¹³”-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñì¹³”-
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º×þŽþÿÿÿÿ
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñì¹³”-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ñì¹³”-
+`squid:S2147"DCombine this catch with the one at line 81, which has the same body.(åþáÿ8Ñì¹³”-
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ª‹Óü8Ñì¹³”-

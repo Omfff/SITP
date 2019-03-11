@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/total_energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:text="总摄入：778千焦"/>
+    <ezy.ui.view.RoundButton
+        android:id="@+id/analysis_button"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/total_energy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="一键分析"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        app:btnCornerRadius="20dp"
+        app:btnSolidColor="#E52846"
+        app:btnPressedRatio="1.5"
+        app:btnStrokeColor="#E52846"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/analysis_button"
+        android:layout_marginTop="10dp"
+        android:text="完整记录三餐分析才准确"
+        android:textColor="@android:color/darker_gray"/>
+
+</RelativeLayout>

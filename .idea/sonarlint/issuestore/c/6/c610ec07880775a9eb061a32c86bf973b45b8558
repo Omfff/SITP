@@ -1,0 +1,11 @@
+
+Tsquid:S2168"9Remove this dangerous instance of double-checked locking.(›ÒªP8¦¶ç”-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÕÜ–ıÿÿÿÿ8¦¶ç”-
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ØşÊŠ8¦¶ç”-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(óŠùÍúÿÿÿÿ8¦¶ç”-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(©›°Éüÿÿÿÿ8¦¶ç”-
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¢á©È8¦¶ç”-
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Ø’òÑ8¦¶ç”-
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¡Ëù®8¦¶ç”-
+Vsquid:S2209"5Change this instance-reference to a static reference.(ÕÜ–ıÿÿÿÿ8¦¶ç”-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º×şşÿÿÿÿ8¦¶ç”-

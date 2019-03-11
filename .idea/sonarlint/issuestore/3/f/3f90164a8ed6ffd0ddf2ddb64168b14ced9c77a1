@@ -1,0 +1,7 @@
+
+qsquid:UselessImportCheck"IRemove this unused import 'com.example.a.fd.searchHistory.db.DaoManager'.(·²š8Öë…”–-
+zsquid:UselessImportCheck"LRemove this unused import 'com.arlib.floatingsearchview.FloatingSearchView'.(ùè¿èøÿÿÿÿ8Öë…”–-
+…squid:UselessImportCheck"\Remove this unused import 'com.arlib.floatingsearchview.suggestions.model.SearchSuggestion'.(îãž°8Öë…”–-
+fsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8Öë…”–-
+Rsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ð¥Å8Öë…”–-
+vsquid:UselessImportCheck"HRemove this unused import 'com.example.a.fd.searchHistory.db.DaoMaster'.(›ò•šþÿÿÿÿ8Öë…”–-

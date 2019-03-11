@@ -1,0 +1,20 @@
+
+†"squid:ClassVariableVisibilityCheck"SMake addfood a static final constant or non-public and provide accessors if needed.(›Æ¯¢8›ıÖÅ•-
+Dsquid:S1604"(Make this anonymous inner class a lambda(äìÄ8›ıÖÅ•-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï³£÷ÿÿÿÿÿ8›ıÖÅ•-
+"squid:ClassVariableVisibilityCheck"WMake badgeButton a static final constant or non-public and provide accessors if needed.(Áı·ƒşÿÿÿÿ8›ıÖÅ•-
+zsquid:UselessImportCheck"LRemove this unused import 'android.support.v4.app.INotificationSideChannel'.(Ğ• Äüÿÿÿÿ8›ıÖÅ•-
+bsquid:UselessImportCheck"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ8›ıÖÅ•-
+Isquid:S1604"(Make this anonymous inner class a lambda(º‹ĞÌÿÿÿÿÿ8›ıÖÅ•-
+Isquid:S1604"(Make this anonymous inner class a lambda(¤İ¤–úÿÿÿÿ8›ıÖÅ•-
+hsquid:S1192"GDefine a constant instead of duplicating this literal "rrrrrr" 6 times.(Ø¢„øÿÿÿÿ8›ıÖÅ•-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ±Üù8›ıÖÅ•-
+isquid:UselessImportCheck";Remove this unused import 'com.example.a.fd.Util.JsonUtil'.(üÅÈóûÿÿÿÿ8›ıÖÅ•-
+Ysquid:UselessImportCheck"0Remove this unused import 'android.media.Image'.(ëïøÂ8›ıÖÅ•-
+Dsquid:S1604"(Make this anonymous inner class a lambda(ÙÅ‘†8›ıÖÅ•-
+"squid:ClassVariableVisibilityCheck"VMake foodAmount a static final constant or non-public and provide accessors if needed.(Œ¶ŒÄıÿÿÿÿ8›ıÖÅ•-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â¶Æ8›ıÖÅ•-
+Fsquid:S1068"+Remove this unused "context" private field.(êİç8›ıÖÅ•-
+Œ"squid:ClassVariableVisibilityCheck"TMake typeMeal a static final constant or non-public and provide accessors if needed.(ì¬ÿæøÿÿÿÿ8›ıÖÅ•-
+Isquid:S1604"(Make this anonymous inner class a lambda(Å‹ÑŞøÿÿÿÿ8›ıÖÅ•-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Úıóÿøÿÿÿÿ8›ıÖÅ•-

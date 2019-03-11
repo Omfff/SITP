@@ -1,0 +1,7 @@
+
+=squid:S1643"Use a StringBuilder instead.(ß«Ëëùÿÿÿÿ8Ä‚¤ç”-
+=squid:S1643"Use a StringBuilder instead.(ß«Ëëùÿÿÿÿ8Ä‚¤ç”-
+tsquid:S1450"XRemove the "imageView" field and declare it as a local variable in the relevant methods.(øû¯8Ä‚¤ç”-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œı¢Õ8Ä‚¤ç”-
+psquid:UselessImportCheck"GRemove this unused import 'com.example.a.fd.searchView.FoodSearchView'.(Û¿Ûš8Ä‚¤ç”-
+[squid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G8Ä‚¤ç”-
