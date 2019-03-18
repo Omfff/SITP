@@ -1,7 +1,7 @@
 
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼© ‡8¡»•ª’-
+squid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "bitmap".(µÔÆÿÿÿÿÿ8¥Ô£È”-
 squid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "bitmap".(–²Ñıÿÿÿÿ8¡»•ª’-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼© ‡8¡»•ª’-
+Bsquid:S1075"&Remove this hard-coded path-delimiter.(“—˜8Ôµ•Ì’-
 Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òÍ¢È”-
 Vsquid:S1118":Add a private constructor to hide the implicit public one.(Æë…8¡»•ª’-
-squid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "bitmap".(µÔÆÿÿÿÿÿ8¥Ô£È”-
-Bsquid:S1075"&Remove this hard-coded path-delimiter.(“—˜8Ôµ•Ì’-

@@ -1,15 +1,29 @@
 
-isquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(æ–óÎ8Ëé«˜–-
-nsquid:S1301D"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8Ëé«˜–-
-Ysquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8Ëé«˜–-
-Fsquid:S1148K"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ëé«˜–-
+ksquid:UselessImportCheck"=Remove this unused import 'com.example.a.fd.Util.FileHelper'.(Æ€œþüÿÿÿÿ8æÏÝø˜-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æÏÝø˜-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æÏÝø˜-
+jsquid:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŠÀø¯8æÏÝø˜-
+`squid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òžýÿÿÿÿ8æÏÝø˜-
+jsquid:UselessImportCheck"<Remove this unused import 'id.zelory.compressor.Compressor'.(ÛÚÂÕÿÿÿÿÿ8æÏÝø˜-
+[
+squid:S899";Do something with the "boolean" value returned by "delete".(ã­È„øÿÿÿÿ8æÏÝø˜-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Æ¾õŒ8æÏÝø˜-
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(Çƒ½óýÿÿÿÿ8æÏÝø˜-
+jsquid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(ã­È„øÿÿÿÿ8æÏÝø˜-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æÏÝø˜-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ƒß‹ÿùÿÿÿÿ8æÏÝø˜-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿øÁ£úÿÿÿÿ8æÏÝø˜-
+[squid:S1854":Remove this useless assignment to local variable "length".(ÙÌÖÈýÿÿÿÿ8æÏÝø˜-
+Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8æÏÝø˜-
+Lsquid:S1481"+Remove this unused "length" local variable.(ÙÌÖÈýÿÿÿÿ8æÏÝø˜-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²À­Åúÿÿÿÿ8æÏÝø˜-
+esquid:UselessImportCheck"<Remove this unused import 'android.content.ContentResolver'.(½Àô“8æÏÝø˜-
+bsquid:UselessImportCheck"4Remove this unused import 'android.database.Cursor'.(ŽÔäåúÿÿÿÿ8æÏÝø˜-
 ]
-squid:S8992";Do something with the "boolean" value returned by "delete".(ã­È„øÿÿÿÿ8Ëé«˜–-
-Zsquid:UnusedPrivateMethod.".Remove this unused private "takePhoto" method.(¦ä©8Ëé«˜–-
-lsquid:S40422"IUse "java.nio.Files#delete" here for better messages on error conditions.(ã­È„øÿÿÿÿ8Ëé«˜–-
-¤squid:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æí‡ýÿÿÿÿ8Ëé«˜–-
-dsquid:UselessImportCheck"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ8Ëé«˜–-
-Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ëé«˜–-
-Ÿsquid:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(äÄí†8Ëé«˜–-
-_
-squid:S8994"BDo something with the "boolean" value returned by "createNewFile".(¢Õ³…8Ëé«˜–-
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(¢Õ³…8æÏÝø˜-
+Usquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(þ·Ë»ýÿÿÿÿ8æÏÝø˜-
+bsquid:UselessImportCheck"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ8æÏÝø˜-
+fsquid:UselessImportCheck"8Remove this unused import 'java.net.URISyntaxException'.(Ä®íÿÿÿÿÿ8æÏÝø˜-
+lsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8æÏÝø˜-
+Wsquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8æÏÝø˜-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æÏÝø˜-

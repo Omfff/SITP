@@ -1,7 +1,7 @@
 
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â¶Æž8“öœî•-
+Isquid:S1604"(Make this anonymous inner class a lambda(ïó„šúÿÿÿÿ8“öœî•-
 Bsquid:S1170"!Make this final field static too.(§ä‰˜ùÿÿÿÿ8“öœî•-
 Dsquid:S1604"(Make this anonymous inner class a lambda(ó¸«‡8“öœî•-
-Isquid:S1604"(Make this anonymous inner class a lambda(º‹ÐÌÿÿÿÿÿ8“öœî•-
-Isquid:S1604"(Make this anonymous inner class a lambda(ïó„šúÿÿÿÿ8“öœî•-
 |squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚¥·¤ÿÿÿÿÿ8“öœî•-
+Isquid:S1604"(Make this anonymous inner class a lambda(º‹ÐÌÿÿÿÿÿ8“öœî•-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â¶Æž8“öœî•-

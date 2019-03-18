@@ -190,6 +190,7 @@ public class SearchResultFragment extends Fragment {
                                 foodAmount =tapeView.getValue();
                                 bottomDialog.dismiss();
                                 setSelectedData(typeMeal,addfood,foodAmount);
+                                Toast.makeText(SearchResultFragment.this.getContext(),"添加了"+addfood.getName(),Toast.LENGTH_SHORT).show();
                             }
                         });
 
@@ -210,81 +211,7 @@ public class SearchResultFragment extends Fragment {
         dietInfo.food = food;
         dietInfo.amount = amount;
         ((FoodSearchView)this.getActivity()).addSelectedData(dietInfo);
-        new UpdateTextTask(this.getActivity().getApplicationContext()).execute();
-        Intent intent = new Intent("com.example.a.fd.MY_BROADCAST");
-        this.getActivity().sendBroadcast(intent);
-
     }
 
-    @Override
-    public void onPause() {
-        Log.d("rrrrrr","onPause");
-        if(type == RECORD){
-            badgeButton.setBadgeText(
-                    Integer.toString(((FoodSearchView)this.getActivity()).selectedFood));
-        }
-        super.onPause();
 
-    }
-
-    @Override
-    public void onStop() {
-        Log.d("rrrrrr","onStop");
-        super.onStop();
-    }
-
-    @Override
-    public void onDestroyView() {
-        Log.d("rrrrrr","onDestoryView");
-        super.onDestroyView();
-    }
-
-    @Override
-    public void onStart() {
-        Log.d("rrrrrr","onStart");
-        super.onStart();
-    }
-
-    @Override
-    public void onResume() {
-        Log.d("rrrrrr","onResume");
-        super.onResume();
-    }
-    class UpdateTextTask extends AsyncTask<Void,Integer,Integer> {
-        private Context context;
-        UpdateTextTask(Context context) {
-            this.context = context;
-        }
-
-        /**
-         * 运行在UI线程中，在调用doInBackground()之前执行
-         */
-        @Override
-        protected void onPreExecute() {
-            //Toast.makeText(context,"开始执行",Toast.LENGTH_SHORT).show();
-        }
-        /**
-         * 后台运行的方法，可以运行非UI线程，可以执行耗时的方法
-         */
-        @Override
-        protected Integer doInBackground(Void... params) {
-            return null;
-        }
-
-        /**
-         * 运行在ui线程中，在doInBackground()执行完毕后执行
-         */
-        @Override
-        protected void onPostExecute(Integer integer) {
-            //Toast.makeText(context,"执行完毕",Toast.LENGTH_SHORT).show();
-        }
-
-        /**
-         * 在publishProgress()被调用以后执行，publishProgress()用于更新进度
-         */
-        @Override
-        protected void onProgressUpdate(Integer... values) {
-            badgeButton.setBadgeText(Integer.toString(((FoodSearchView)SearchResultFragment.this.getActivity()).selectedFood));
-        }
-    }
 }

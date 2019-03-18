@@ -1,4 +1,2 @@
 
-^squid:UselessImportCheck"0Remove this unused import 'okhttp3.RequestBody'.(ıÂÂöûÿÿÿÿ8é£ú—–-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¬´‹°8‡Ìü—–-
-tsquid:S1602"SRemove useless curly braces around statement and then remove useless return keyword(½ß·¡üÿÿÿÿ8·àı—–-
+^squid:UselessImportCheck"0Remove this unused import 'okhttp3.RequestBody'.(ıÂÂöûÿÿÿÿ8¼¾œé—-

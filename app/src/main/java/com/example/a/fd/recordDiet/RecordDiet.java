@@ -1,5 +1,6 @@
 package com.example.a.fd.recordDiet;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
@@ -28,6 +29,7 @@ import android.widget.Toast;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.listener.OnItemChildClickListener;
+import com.example.a.fd.FoodAnalyze;
 import com.example.a.fd.R;
 import com.example.a.fd.model.DietScore;
 import com.example.a.fd.model.Food;
@@ -40,6 +42,7 @@ import com.github.sundeepk.compactcalendarview.domain.Event;
 import com.oushangfeng.pinnedsectionitemdecoration.PinnedHeaderItemDecoration;
 import com.oushangfeng.pinnedsectionitemdecoration.callback.OnHeaderClickAdapter;
 
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -103,34 +106,12 @@ public class RecordDiet extends AppCompatActivity {
             appBarLayout.setExpanded(isExpanded, true);
         });
 
-        //test button
-       /* b1 = findViewById(R.id.b1);
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                addBreakfast();
-            }
-        });
-        b2 = findViewById(R.id.b2);
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                addLunch();
-            }
-        });
-        b3 = findViewById(R.id.b3);
-        b3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                addDinner();
-            }
-        });*/
 
     }
     private void initCalendarView(){
         compactCalendarView = (CompactCalendarView)findViewById(R.id.compactcalendar_view);
         compactCalendarView.setLocale(TimeZone.getDefault(), Locale.CHINESE);
-        compactCalendarView.displayOtherMonthDays(true);
+        compactCalendarView.displayOtherMonthDays(false);
         compactCalendarView.setUseThreeLetterAbbreviation(true);
         compactCalendarView.shouldDrawIndicatorsBelowSelectedDays(true);
         setCurrentDate(new Date());
@@ -144,7 +125,6 @@ public class RecordDiet extends AppCompatActivity {
                         score = score + " " +e.getData().toString();
                     }
                 }
-                Toast.makeText(RecordDiet.this,score,Toast.LENGTH_SHORT).show();
                 resetDisplayRecord(dateClicked);
                 displayDate = dateClicked;
                 setSubtitle(dateFormat.format(dateClicked));
@@ -176,10 +156,10 @@ public class RecordDiet extends AppCompatActivity {
             @Override
             public void onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
                 RecordPresenter.deleteRecord((DietInfo)adapter.getData().get(position),displayDate);
-                if(RecordPresenter.getScoreByDate(displayDate)==0){
+                ((DietAdapter)adapter).deleteData(position);
+                if(RecordPresenter.getScoreByDate(displayDate)==0&&adapter.getItemCount()<=1){
                     compactCalendarView.removeEvents(displayDate);
                 }
-                ((DietAdapter)adapter).deleteData(position);
 
             }
         });
@@ -230,7 +210,6 @@ public class RecordDiet extends AppCompatActivity {
                 switch (id) {
                     case R.id.diet_header:
                         // case OnItemTouchListener.HEADER_ID:
-                        Toast.makeText(RecordDiet.this, "click, tag: " + adapter.getData().get(position).pinnedHeaderName, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.checkbox:
                         final CheckBox checkBox = (CheckBox) view;
@@ -302,7 +281,28 @@ public class RecordDiet extends AppCompatActivity {
             compactCalendarView.removeEvents(displayDate);
         }
         compactCalendarView.addEvent(new Event(Color.RED, displayDate.getTime(), 0));
-        Toast.makeText(this,"jump to analysis view",Toast.LENGTH_SHORT).show();
+        List<DietInfo> list = getDietList();
+        if(list.size()>0)
+        {
+            Bundle bundle = new Bundle();
+            bundle.putSerializable("list", (Serializable)list);
+            bundle.putString("date",displayDate.toString());
+            Intent intent = new Intent(RecordDiet.this,FoodAnalyze.class);
+            intent.putExtra("record", bundle);
+            startActivity(intent);
+        }
+    }
+    private List<DietInfo> getDietList(){
+        List<DietInfo> list = adapter.getData();
+        List<DietInfo> resultList = new ArrayList<>();
+        if(list!=null){
+            for(DietInfo diet :list){
+                if(diet.getItemType()==DietInfo.TYPE_DATA){
+                    resultList.add(diet);
+                }
+            }
+        }
+        return resultList;
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

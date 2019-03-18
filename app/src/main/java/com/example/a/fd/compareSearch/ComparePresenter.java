@@ -35,7 +35,7 @@ public class ComparePresenter {
     }
     private List<String> genData(Food food){
         List<String> data = new ArrayList<>();
-        data.add(food.getHeat()+"千焦");
+        data.add(food.getHeat()+"千卡");
         data.add(NumUtil.setOneDecimal(food.getProtein())+"克");
         data.add(NumUtil.setOneDecimal(food.getFat())+"克");
         data.add(NumUtil.setOneDecimal(food.getCarbohydrate())+"克");

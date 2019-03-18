@@ -59,10 +59,10 @@ public class FoodDetailsView extends AppCompatActivity {
     private void initData(Food food){
         name.setText(food.getName());
         energy.setText(Integer.toString(food.getHeat()));
-        calorie.setText(Integer.toString(food.getHeat()));
-        carbohydrate.setText(food.getCarbohydrate().toString());
-        fat.setText(food.getFat().toString());
-        protein.setText(food.getProtein().toString());
+        calorie.setText(Integer.toString(food.getHeat())+"千卡");
+        carbohydrate.setText(food.getCarbohydrate().toString()+"克");
+        fat.setText(food.getFat().toString()+"克");
+        protein.setText(food.getProtein().toString()+"克");
         img.setImageBitmap(ImageUtil.getBitmapByName(food.getImageUrl(),this));
 
         switch (food.getEvaluate()){

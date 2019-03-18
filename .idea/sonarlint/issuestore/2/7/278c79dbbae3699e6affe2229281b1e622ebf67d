@@ -1,0 +1,8 @@
+
+`squid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8˜æŸá˜-
+^squid:UselessImportCheck"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8Õœá˜-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ë¼ 8Õœá˜-
+~squid:S1450"]Remove the "mCalorieAmount" field and declare it as a local variable in the relevant methods.(‹¥ªÅùÿÿÿÿ8Õœá˜-
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü8˜æŸá˜-
+tsquid:S1450"YRemove the "mDietInfos" field and declare it as a local variable in the relevant methods.(ØĞ8Õœá˜-
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8˜æŸá˜-

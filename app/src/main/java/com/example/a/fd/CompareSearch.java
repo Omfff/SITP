@@ -38,7 +38,6 @@ public class CompareSearch extends AppCompatActivity {
         setContentView(R.layout.compare_search);
         keywordBaseDaoMethod = new BaseDaoMethod<>(this.getApplicationContext());
         ButterKnife.bind(this);
-        Toast.makeText(this,"done",Toast.LENGTH_SHORT).show();
     }
 
     @OnClick({R.id.query_all,R.id.query_one,R.id.delete_one,R.id.update_one,R.id.delete_all,R.id.insert_one})

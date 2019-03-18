@@ -11,7 +11,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
         android:textSize="20dp"
-        android:text="总摄入：778千焦"/>
+        android:text="总摄入：778千卡"/>
     <ezy.ui.view.RoundButton
         android:id="@+id/analysis_button"
         android:layout_width="300dp"

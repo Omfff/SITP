@@ -1,5 +1,7 @@
 package com.example.a.fd.network;
 
+import com.example.a.fd.model.FoodRecognitionModel;
+
 /**
  * @Package: com.example.a.fd.network
  * @ClassName: UploadImageMethod
@@ -8,6 +10,6 @@ package com.example.a.fd.network;
  * @UpdateDate: 2019/3/9 23:14
  */
 public interface UploadImageMethod {
-    void postSuccess(String a);//ResponseModel responseModel);
+    void postSuccess(FoodRecognitionModel a);//ResponseModel responseModel);
     void postError(Throwable e);
 }

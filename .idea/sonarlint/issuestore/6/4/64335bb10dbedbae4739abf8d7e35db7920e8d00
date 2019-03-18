@@ -1,22 +1,24 @@
 
-esquid:UselessImportCheck"7Remove this unused import 'android.widget.FrameLayout'.(ºÍ‹Ùúÿÿÿÿ8³ş‰Æ•-
-Ksquid:S1905"*Remove this unnecessary cast to "Toolbar".(«ó·øÿÿÿÿ8³ş‰Æ•-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ôö§ó8³ş‰Æ•-
-usquid:UselessImportCheck"GRemove this unused import 'com.example.a.fd.searchHistory.db.DaoUtils'.(ùàÎ³şÿÿÿÿ8³ş‰Æ•-
-wsquid:S1450"[Remove the "intentFilter" field and declare it as a local variable in the relevant methods.(Ò»¯‡8³ş‰Æ•-
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ì£é‰ÿÿÿÿÿ8³ş‰Æ•-
-fsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8³ş‰Æ•-
-_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(•¢£ğıÿÿÿÿ8³ş‰Æ•-
-Isquid:S1125"(Remove the literal "true" boolean value.(ª³ —ıÿÿÿÿ8³ş‰Æ•-
-rsquid:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—8³ş‰Æ•-
-ksquid:S1192"JDefine a constant instead of duplicating this literal "rrrrrraaa" 3 times.(ùÄ£§şÿÿÿÿ8³ş‰Æ•-
-"squid:ClassVariableVisibilityCheck"[Make searchPresenter a static final constant or non-public and provide accessors if needed.(Òˆ‡é8³ş‰Æ•-
-"squid:ClassVariableVisibilityCheck"WMake badgeButton a static final constant or non-public and provide accessors if needed.(Áı·ƒşÿÿÿÿ8³ş‰Æ•-
-isquid:UselessImportCheck";Remove this unused import 'com.example.a.fd.CompareSearch'.(Ì†¬ÿÿÿÿÿ8³ş‰Æ•-
-"squid:ClassVariableVisibilityCheck"XMake selectedFood a static final constant or non-public and provide accessors if needed.(ë²ê¯ûÿÿÿÿ8³ş‰Æ•-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ±Üù8³ş‰Æ•-
-ƒ"squid:ClassVariableVisibilityCheck"PMake type a static final constant or non-public and provide accessors if needed.(ûöå©8³ş‰Æ•-
-‰"squid:ClassVariableVisibilityCheck"VMake searchView a static final constant or non-public and provide accessors if needed.(İ€Û 8³ş‰Æ•-
-lsquid:UselessImportCheck"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(ÊŠáó8³ş‰Æ•-
-usquid:S1450"YRemove the "okReceiver" field and declare it as a local variable in the relevant methods.(áÕ±Ñ8³ş‰Æ•-
-xsquid:UselessImportCheck"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(í™½Úúÿÿÿÿ8³ş‰Æ•-
+ksquid:S1192"JDefine a constant instead of duplicating this literal "rrrrrraaa" 3 times.(ùÄ£§şÿÿÿÿ8íÏ´Û˜-
+rsquid:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—8íÏ´Û˜-
+Isquid:S1125"(Remove the literal "true" boolean value.(ª³ —ıÿÿÿÿ8íÏ´Û˜-
+ƒ"squid:ClassVariableVisibilityCheck"PMake type a static final constant or non-public and provide accessors if needed.(ûöå©8íÏ´Û˜-
+‰"squid:ClassVariableVisibilityCheck"VMake searchView a static final constant or non-public and provide accessors if needed.(İ€Û 8íÏ´Û˜-
+"squid:ClassVariableVisibilityCheck"[Make searchPresenter a static final constant or non-public and provide accessors if needed.(Òˆ‡é8íÏ´Û˜-
+"squid:ClassVariableVisibilityCheck"WMake badgeButton a static final constant or non-public and provide accessors if needed.(Áı·ƒşÿÿÿÿ8íÏ´Û˜-
+"squid:ClassVariableVisibilityCheck"XMake selectedFood a static final constant or non-public and provide accessors if needed.(ë²ê¯ûÿÿÿÿ8íÏ´Û˜-
+Ksquid:S1905"*Remove this unnecessary cast to "Toolbar".(«ó·øÿÿÿÿ8íÏ´Û˜-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ±Üù8íÏ´Û˜-
+]squid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è8íÏ´Û˜-
+fsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8íÏ´Û˜-
+esquid:UselessImportCheck"7Remove this unused import 'android.widget.FrameLayout'.(ºÍ‹Ùúÿÿÿÿ8íÏ´Û˜-
+isquid:UselessImportCheck";Remove this unused import 'com.example.a.fd.CompareSearch'.(Ì†¬ÿÿÿÿÿ8íÏ´Û˜-
+_squid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8íÏ´Û˜-
+Wsquid:UselessImportCheck".Remove this unused import 'android.view.Menu'.(£¯Ò…8íÏ´Û˜-
+usquid:UselessImportCheck"GRemove this unused import 'com.example.a.fd.searchHistory.db.DaoUtils'.(ùàÎ³şÿÿÿÿ8íÏ´Û˜-
+gsquid:UselessImportCheck"9Remove this unused import 'android.content.IntentFilter'.(ò³ñ£ÿÿÿÿÿ8íÏ´Û˜-
+xsquid:UselessImportCheck"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(í™½Úúÿÿÿÿ8íÏ´Û˜-
+gsquid:UselessImportCheck">Remove this unused import 'android.content.BroadcastReceiver'.(Ãğõğ8íÏ´Û˜-
+asquid:UselessImportCheck"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ8íÏ´Û˜-
+lsquid:UselessImportCheck"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(ÊŠáó8íÏ´Û˜-
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(•¢£ğıÿÿÿÿ8íÏ´Û˜-

@@ -103,3 +103,13 @@ g
 7app/src/main/java/com/example/a/fd/Util/FileHelper.java,3\e\3e9c4ee096a75e3a2864a48d0ffa88ed07274952
 `
 0app/src/main/java/com/example/a/fd/FoodScan.java,2\0\20e1c6cc0ea779a99a91cb95b36ae39aaa7c20c1
+r
+Bapp/src/main/java/com/example/a/fd/model/FoodRecognitionModel.java,6\3\63f649b23c4c694d08a72f8d3776a9d781ef4c06
+i
+9app/src/main/java/com/example/a/fd/network/ResultDTO.java,d\a\daaf6601ce7fb4802c9446a4304a3b2397028359
+c
+3app/src/main/java/com/example/a/fd/FoodAnalyze.java,2\7\278c79dbbae3699e6affe2229281b1e622ebf67d
+e
+5app/src/main/java/com/example/a/fd/ResultAdapter.java,5\7\57f55a768cd3022cfbf3b7309074b392cc461ded
+g
+7app/src/main/java/com/example/a/fd/ResultViewHoler.java,7\5\75d7d16d4f269615d80d39ed77e6028c95f7bf4f

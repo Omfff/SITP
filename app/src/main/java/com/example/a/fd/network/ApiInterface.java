@@ -16,8 +16,8 @@ import retrofit2.http.Part;
  */
 public interface ApiInterface {
 
-    @POST("moments")
+    @POST("upload")
     @Multipart
-    Single<String> postMoment
+    Single<ResultDTO> postPhoto
             ( @Part MultipartBody.Part file);
 }

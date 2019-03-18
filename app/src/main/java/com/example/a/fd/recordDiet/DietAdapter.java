@@ -81,7 +81,7 @@ public class DietAdapter extends BaseMultiItemQuickAdapter<DietInfo,BaseViewHold
         if(getItemCount()<=1){
             footerView.setVisibility(View.GONE);
         }else{
-            ((TextView)footerView.findViewById(R.id.total_energy)).setText("总摄入："+Integer.toString(calHeat())+"千焦");
+            ((TextView)footerView.findViewById(R.id.total_energy)).setText("总摄入："+Integer.toString(calHeat())+"千卡");
         }
     }
 
@@ -148,7 +148,7 @@ public class DietAdapter extends BaseMultiItemQuickAdapter<DietInfo,BaseViewHold
                 dinnerPos++;
             }
         }
-        ((TextView)footerView.findViewById(R.id.total_energy)).setText("总摄入："+Integer.toString(calHeat())+"千焦");
+        ((TextView)footerView.findViewById(R.id.total_energy)).setText("总摄入："+Integer.toString(calHeat())+"千卡");
         if(getItemCount() > 1 && preCount <= 1){
             footerView.setVisibility(View.VISIBLE);
         }
@@ -217,7 +217,7 @@ public class DietAdapter extends BaseMultiItemQuickAdapter<DietInfo,BaseViewHold
         if(getData()!=null && getData().size()>0) {
             for (DietInfo diet : getData()) {
                 if(diet.getItemType() == DietInfo.TYPE_DATA) {
-                    totalHeat += diet.food.getHeat();
+                    totalHeat += (diet.amount/100.0)*diet.food.getHeat();
                 }
             }
         }

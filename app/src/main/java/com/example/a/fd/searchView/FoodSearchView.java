@@ -50,8 +50,6 @@ public class FoodSearchView extends AppCompatActivity {
     public int selectedFood = 0;
     private int fragmentType;
     private List<DietInfo> dietInfoList;
-    private IntentFilter intentFilter;
-    private MyBroadcastReceiver okReceiver;
 
 
     @Override
@@ -65,12 +63,6 @@ public class FoodSearchView extends AppCompatActivity {
         initEvent();
         replaceFragment(new SearchHistoryFragment(),SEARCH_HISTORY);
         searchPresenter = new SearchPresenter(keywordBaseDaoMethod);
-        if(type==SearchResultFragment.RECORD){
-            intentFilter = new IntentFilter();
-            intentFilter.addAction("com.example.a.fd.MY_BROADCAST");
-            okReceiver = new MyBroadcastReceiver();
-            registerReceiver(okReceiver,intentFilter);
-        }
     }
     private void initView(){
         toolbar = (Toolbar)findViewById(R.id.toolbar);
@@ -88,8 +80,6 @@ public class FoodSearchView extends AppCompatActivity {
         if(type == SearchResultFragment.RECORD){
             findViewById(R.id.search_icon).setVisibility(View.GONE);
             badgeButton = findViewById(R.id.finish_button);
-            badgeButton.setBadgeVisible(true);
-            badgeButton.setBadgeText("0");
             dietInfoList = new ArrayList<>();
             badgeButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -106,7 +96,6 @@ public class FoodSearchView extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 if(!s.equals("")) {
-                    Toast.makeText(FoodSearchView.this, s, Toast.LENGTH_SHORT).show();
                     SearchKeyword searchKeyword = new SearchKeyword();
                     searchKeyword.setKeyword(s);
                     keywordBaseDaoMethod.insertObject(searchKeyword);
@@ -149,9 +138,7 @@ public class FoodSearchView extends AppCompatActivity {
         return fragment;
     }
     public void addSelectedData(DietInfo dietInfo){
-        //badgeButton.setBadgeVisible(true);
         selectedFood++;
-        badgeButton.setBadgeText(Integer.toString(selectedFood));
         dietInfoList.add(dietInfo);
     }
     public BadgeButton getBadgeButton(){
@@ -183,27 +170,6 @@ public class FoodSearchView extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
     }
 
-    /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_search_view, menu);
-        final MenuItem item = menu.findItem(R.id.action_search);
-        SearchView searchView = (SearchView) item.getActionView();
-        s
-        searchView.setBackgroundColor(Color.parseColor("#F5F5F5"));
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                Toast.makeText(FoodSearchView.this,query,Toast.LENGTH_SHORT).show();
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                return false;
-            }
-        });
-        return true;
-    }*/
 
     @Override
     protected void onPause() {
@@ -221,12 +187,5 @@ public class FoodSearchView extends AppCompatActivity {
     protected void onResume() {
         Log.d("rrrrrraaa","onResume");
         super.onResume();
-    }
-    public class MyBroadcastReceiver extends BroadcastReceiver {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            Toast.makeText(context,"onReceive",Toast.LENGTH_SHORT).show();
-            badgeButton.setBadgeText(Integer.toString(selectedFood));
-        }
     }
 }

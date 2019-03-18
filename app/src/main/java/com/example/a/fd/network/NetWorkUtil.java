@@ -31,7 +31,7 @@ public class NetWorkUtil {
     }
 
     static OkHttpClient makeClient(){
-        final int timeout = 5;
+        final int timeout = 40;
         return new OkHttpClient.Builder()
                 .connectTimeout(timeout,TimeUnit.SECONDS)
                 .readTimeout(timeout,TimeUnit.SECONDS)

@@ -1,7 +1,10 @@
 
-qsquid:UselessImportCheck"IRemove this unused import 'com.example.a.fd.searchHistory.db.DaoManager'.(·²š8Öë…”–-
-zsquid:UselessImportCheck"LRemove this unused import 'com.arlib.floatingsearchview.FloatingSearchView'.(ùè¿èøÿÿÿÿ8Öë…”–-
-…squid:UselessImportCheck"\Remove this unused import 'com.arlib.floatingsearchview.suggestions.model.SearchSuggestion'.(îã°8Öë…”–-
-fsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8Öë…”–-
-Rsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥Å8Öë…”–-
-vsquid:UselessImportCheck"HRemove this unused import 'com.example.a.fd.searchHistory.db.DaoMaster'.(›ò•šşÿÿÿÿ8Öë…”–-
+qsquid:UselessImportCheck"IRemove this unused import 'com.example.a.fd.searchHistory.db.DaoManager'.(·²š8µ¤”—-
+Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8µ¤”—-
+zsquid:UselessImportCheck"LRemove this unused import 'com.arlib.floatingsearchview.FloatingSearchView'.(ùè¿èøÿÿÿÿ8µ¤”—-
+Rsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥Å8µ¤”—-
+fsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8µ¤”—-
+^squid:UselessImportCheck"6Remove this unused import 'com.alibaba.fastjson.JSON'.(Ö¢å$8µ¤”—-
+vsquid:UselessImportCheck"HRemove this unused import 'com.example.a.fd.searchHistory.db.DaoMaster'.(›ò•šşÿÿÿÿ8µ¤”—-
+…squid:UselessImportCheck"\Remove this unused import 'com.arlib.floatingsearchview.suggestions.model.SearchSuggestion'.(îã°8µ¤”—-
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8µ¤”—-

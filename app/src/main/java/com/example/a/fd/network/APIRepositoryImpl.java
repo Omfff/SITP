@@ -1,5 +1,7 @@
 package com.example.a.fd.network;
 
+import com.example.a.fd.model.FoodRecognitionModel;
+
 import io.reactivex.Single;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
@@ -14,13 +16,16 @@ import okhttp3.RequestBody;
 public class APIRepositoryImpl {
     private final ApiInterface api = NetWorkUtil.makeRetrofit().create(ApiInterface.class);
 
-    public Single<String> postMoment( MultipartBody.Part file) {
-        return api.postMoment(file)
-                .map(responseDTO -> {
-                    /*responseModel.setStatus(responseDTO.getStatus());
-                    responseModel.setError(responseDTO.getError());
-                    return responseModel;*/
-                    return "";
-                });
+    public Single<FoodRecognitionModel> postPhoto(MultipartBody.Part file) {
+        FoodRecognitionModel foodRecognitionModel = new FoodRecognitionModel();
+        return api.postPhoto(file).map(new io.reactivex.functions.Function<ResultDTO,FoodRecognitionModel>(){
+            @Override
+            public FoodRecognitionModel apply(ResultDTO resultDTO) throws Exception {
+                foodRecognitionModel.setResultImgUrl(resultDTO.getResultImgUrl());
+                foodRecognitionModel.setResultJson(resultDTO.getResultJson());
+                foodRecognitionModel.setStatus(resultDTO.getStatus());
+                return foodRecognitionModel;
+            }
+        });
     }
 }

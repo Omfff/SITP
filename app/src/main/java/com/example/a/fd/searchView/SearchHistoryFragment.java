@@ -50,7 +50,6 @@ public class SearchHistoryFragment  extends Fragment {
         adapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
-                Toast.makeText(SearchHistoryFragment.this.getActivity(), "onItemClick" + position, Toast.LENGTH_SHORT).show();
                 FoodSearchView foodSearchView = (FoodSearchView)SearchHistoryFragment.this.getActivity();
                 foodSearchView.replaceFragment(foodSearchView.setResultFragment(((SearchKeyword)adapter.getData().get(position)).getKeyword())
                 ,FoodSearchView.SEARCH_RESULT);

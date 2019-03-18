@@ -16,38 +16,58 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:titleTextAppearance="@style/Toolbar.TitleText"
         app:titleTextColor="@android:color/white">
-        <android.support.v7.widget.SearchView
-            android:id="@+id/searchView"
-            android:layout_width="290dp"
-            android:layout_height="35dp"
-            android:iconifiedByDefault="false"
-            android:queryHint="请输入食物名称"
-            android:background="#EDEDED"/>
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp">
-        <ImageView
-            android:id="@+id/search_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/search2"
-            />
-            <ezy.ui.view.BadgeButton
-                android:id="@+id/finish_button"
-                android:layout_height="32dp"
-                android:layout_width="64dp"
-                android:text="OK"
-                android:textStyle="bold"
-                android:textSize="28dp"
-                android:layout_centerVertical="true"
-                android:textColor="#E52846"
-                app:btnBadgeText="8"
-                app:btnBadgeVisible="true"/>
-        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <android.support.v7.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.82"
+                android:iconifiedByDefault="false"
+                android:queryHint="请输入食物名称"
+                android:background="#EDEDED"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.18"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/search_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/search2" />
+
+                <ezy.ui.view.BadgeButton
+                    android:id="@+id/finish_button"
+                    android:layout_height="32dp"
+                    android:layout_width="64dp"
+                    android:text="OK"
+                    android:textStyle="bold"
+                    android:textSize="28dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="#E52846"
+                    android:gravity="center"
+                    android:layout_marginBottom="6dp"
+                    app:btnBadgeText="8"
+                    app:btnBadgeVisible="false"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
     </android.support.v7.widget.Toolbar>
+
     <FrameLayout
         android:id="@+id/search_fragment"
         android:layout_width="match_parent"
